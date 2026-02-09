@@ -7,7 +7,8 @@ export const DATA = {
   url: "https://stackmorgan.vercel.app",
   location: "Nairobi, Kenya",
   locationLink: "https://www.google.com/maps/place/Nairobi",
-  description: "System Engineer turned Web Developer. I love building things and helping people. Very active on WhatsApp.",
+  description:
+    "System Engineer turned Web Developer. I love building things and helping people. Very active on WhatsApp.",
   summary: "I’m here. I keep to myself. Things happen around me. I move along.",
   avatarUrl: "/images (2).png",
   skills: [
@@ -71,7 +72,9 @@ export const DATA = {
       logoUrl: "/Screenshot (5).png",
       start: "Feb 2023",
       end: "Present",
-      description: "Founder at StackVerify. I manage messaging systems across Email, SMS, and WhatsApp.",
+      description:
+        "Founder at StackVerify. I manage messaging systems across Email, SMS, and WhatsApp.",
+      badges: [], //  Added to prevent TS errors
     },
   ],
   education: [
@@ -90,7 +93,8 @@ export const DATA = {
       href: "https://github.com/Frost-bit-star",
       dates: "Jan 2026 - Feb 2025",
       active: true,
-      description: "Turns Tenda routers into micro-ISP routers using PHP, enabling client monitoring, access control, and centralized management.",
+      description:
+        "Turns Tenda routers into micro-ISP routers using PHP, enabling client monitoring, access control, and centralized management.",
       technologies: [
         "PHP",
         "TypeScript",
@@ -105,7 +109,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://github.com/Frost-bit-star/tendaN301-billing",
-          icon: <Icons.globe className="size-3" />,
+          icon: Icons.globe, //  use component reference instead of JSX
         },
       ],
       image: "/Screenshot (28).png",
@@ -115,7 +119,8 @@ export const DATA = {
       href: "https://stackverify.site",
       dates: "Present",
       active: true,
-      description: "StackVerify is a messaging platform that handles Email, SMS, and WhatsApp. It lets users run basic campaigns and automation. The system is built to work reliably, even in everyday situations, helping messages reach their destination without fuss. It’s practical, straightforward, and focused on getting things done.",
+      description:
+        "StackVerify is a messaging platform that handles Email, SMS, and WhatsApp. It lets users run basic campaigns and automation. The system is built to work reliably, even in everyday situations, helping messages reach their destination without fuss. It’s practical, straightforward, and focused on getting things done.",
       technologies: [
         "Laravel",
         "TypeScript",
@@ -129,7 +134,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://stackverify.site",
-          icon: <Icons.globe className="size-3" />,
+          icon: Icons.globe, //  component reference
         },
       ],
       image: "/Screenshot (5).png",
