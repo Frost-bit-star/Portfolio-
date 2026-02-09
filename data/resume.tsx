@@ -34,31 +34,31 @@ export const DATA = {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/Frost-bit-star",
-        icon: Icons.github, // Component reference
+        icon: <Icons.github />, // ✅ JSX wrapped
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/company/stackverify",
-        icon: Icons.linkedin,
+        icon: <Icons.linkedin />, // ✅ JSX wrapped
         navbar: true,
       },
       X: {
         name: "X",
         url: "#",
-        icon: Icons.x,
+        icon: <Icons.x />, // ✅ JSX wrapped
         navbar: true,
       },
       YouTube: {
         name: "YouTube",
         url: "https://youtube.com/@mr_termux-r2l?si=hBWyfj2QH8cmr5RN",
-        icon: Icons.youtube,
+        icon: <Icons.youtube />, // ✅ JSX wrapped
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "mailto:hr@stackverify.site",
-        icon: Icons.email,
+        icon: <Icons.email />, // ✅ JSX wrapped
         navbar: false,
       },
     },
@@ -109,7 +109,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://github.com/Frost-bit-star/tendaN301-billing",
-          icon: Icons.globe, // Component reference
+          icon: <Icons.globe className="size-3" />, // ✅ JSX wrapped
         },
       ],
       image: "/Screenshot (28).png",
@@ -134,7 +134,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://stackverify.site",
-          icon: Icons.globe, // Component reference
+          icon: <Icons.globe className="size-3" />, // ✅ JSX wrapped
         },
       ],
       image: "/Screenshot (5).png",
