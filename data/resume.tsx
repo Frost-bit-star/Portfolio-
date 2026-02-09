@@ -13,7 +13,7 @@ export const DATA = {
    "I’m here. I keep to myself. Things happen around me. I move along. ",
   avatarUrl: "/images (2).png",
   skills: [
-    "php"",
+    "php",
     "Next.js",
     "python",
     "Node.js",
