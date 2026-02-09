@@ -66,13 +66,22 @@ export const DATA = {
     {
       company: "StackVerify",
       href: "https://stackverify.site",
-      badges: [],
       location: "Remote",
       title: "Software Developer",
       logoUrl: "/Screenshot (5).png",
       start: "Feb 2023",
       end: "Present",
       description: "Founder at StackVerify. I manage messaging systems across Email, SMS, and WhatsApp.",
+    },
+  ],
+  education: [
+    {
+      school: "Moringa School",
+      href: "https://moringaschool.com/",
+      degree: "Software Development",
+      logoUrl: "/moringa_logo.png",
+      start: "2023",
+      end: "Present",
     },
   ],
   projects: [
