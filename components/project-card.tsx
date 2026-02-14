@@ -21,7 +21,7 @@ interface Props {
   image?: string;
   video?: string;
   links?: readonly {
-    icon: React.ReactNode;
+    icon: React.ElementType;
     type: string;
     href: string;
   }[];
@@ -103,7 +103,7 @@ export function ProjectCard({
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  {link.icon}
+                  <link.icon className="size-3" />
                   {link.type}
                 </Badge>
               </Link>
